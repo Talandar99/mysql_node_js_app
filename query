@@ -1,7 +1,0 @@
-CREATE TABLE food (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    english_name VARCHAR(255) NOT NULL,
-    polish_name VARCHAR(255) NOT NULL
-);
-
-INSERT INTO food (english_name, polish_name) VALUES ('banana', 'banan');

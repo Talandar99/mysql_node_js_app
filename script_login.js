@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const password = document.getElementById("password").value;
 
     if (username === "piotr" && password === "ryba") {
-      window.location.href = "/slownik";
+      window.location.href = "slownik.php";
     } else {
       window.alert("dane logowania są niepoprawne");
     }
