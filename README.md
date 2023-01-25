@@ -4,7 +4,21 @@
 2. Zainstaluj serwer http (wpisz w terminalu jako administrator)
 ```  
 npm install -g http-server
+
 ```
+
+2. Zainstaluj webpack (wpisz w terminalu jako administrator)
+```
+npm install webpack webpack-cli
+
+```
+
+2. Zapakuj paczkę kodu (wpisz w terminalu jako administrator)
+```
+npx webpack
+
+```
+
 3. Uruchom terminal w katalogu z index.html i wpisz komendę 
 ```
 http-server
